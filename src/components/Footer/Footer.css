@@ -1,0 +1,27 @@
+footer {
+    width: 100%;
+    background-color: #ffca41;
+    padding: 1rem;
+}
+
+.footer-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+    background-color: #ffffff;
+    overflow: hidden;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.footer-image:active {
+    position: relative;
+    top: 1px;
+}
+
+.footer-image img {
+    width: 70%;
+}

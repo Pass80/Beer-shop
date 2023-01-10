@@ -1,0 +1,71 @@
+.card {
+    width: 80%;
+    margin: 2rem auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    border-bottom: 2px solid #979797;
+}
+
+.image-container,
+.beer-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.image-container {
+    width: 25%;
+    height: 30rem;
+}
+
+.image-container img {
+    max-width: 90%;
+    max-height: 90%;
+    margin-bottom: 2rem;
+}
+
+.beer-info {
+    width: 75%;
+    align-items: flex-start;
+    padding-top: 1rem;
+    padding-left: 4rem;
+}
+
+.beer-info h3 {
+    font-size: 2rem;
+}
+
+.beer-info h4 {
+    width: 40%;
+    font-size: 1.5rem;
+    color: #ffca41;
+    padding-top: 1rem;
+}
+
+.beer-info p {
+    font-size: 1.2rem;
+    color: #000000;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+.beer-info button {
+    width: 8rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #ffca41;
+    border: none;
+    border-radius: 30px;
+    padding: 0.5rem 1rem;
+    margin-block: 2rem;
+    cursor: pointer;
+}
+
+.beer-info button:active {
+    position: relative;
+    top: 1.5px;
+    background-color: #deb348;
+}
