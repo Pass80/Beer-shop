@@ -3,19 +3,19 @@ import './Pagination.css';
 
 const Pagination = ({ currentPage, totalPages, nextPage, previousPage }) => {
     return (
-        <div class="pagination">
-            <button class="btn btn--left" onClick={previousPage}>
+        <div className="pagination">
+            <button className="btn btn--left" onClick={previousPage}>
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     viewBox="0 0 24 24"
-                    stroke-width="1.5"
+                    strokeWidth="1.5"
                     stroke="currentColor"
-                    class="left"
+                    className="left"
                 >
                     <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                         d="M15.75 19.5L8.25 12l7.5-7.5"
                     />
                 </svg>
@@ -23,18 +23,18 @@ const Pagination = ({ currentPage, totalPages, nextPage, previousPage }) => {
             <p className="page-number">
                 {currentPage} / {totalPages}
             </p>
-            <button class="btn btn--right" onClick={nextPage}>
+            <button className="btn btn--right" onClick={nextPage}>
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     viewBox="0 0 24 24"
-                    stroke-width="1.5"
+                    strokeWidth="1.5"
                     stroke="currentColor"
-                    class="right"
+                    className="right"
                 >
                     <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                         d="M8.25 4.5l7.5 7.5-7.5 7.5"
                     />
                 </svg>

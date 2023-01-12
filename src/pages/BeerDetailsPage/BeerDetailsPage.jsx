@@ -8,7 +8,6 @@ import { Link } from 'react-router-dom';
 const BeerDetailsPage = ({ data }) => {
     const params = useParams();
     const beer = data.filter((element) => element._id === params.id);
-    console.log(beer);
 
     return (
         <div>
