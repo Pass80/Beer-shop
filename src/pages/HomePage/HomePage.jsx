@@ -26,7 +26,7 @@ const HomePage = ({ data }) => {
             </div>
             <div className="random">
                 <img src={img2} alt="glass of beer" />
-                <Link className="link1" to={`/details/${randomBeer._id}`}>
+                <Link className="link1" to={`/details/${randomBeer?._id}`}>
                     <h2>Random Beer</h2>
                 </Link>
 
