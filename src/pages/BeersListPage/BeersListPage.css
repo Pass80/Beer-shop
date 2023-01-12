@@ -51,20 +51,26 @@
     margin-bottom: 3rem;
 }
 
-.beer-info button {
-    width: 8rem;
+.beer-info .link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding-block: 1rem;
+    width: 9rem;
+    height: 3rem;
     font-size: 1.5rem;
     font-weight: bold;
     color: #ffffff;
     background-color: #ffca41;
     border: none;
     border-radius: 30px;
-    padding: 0.5rem 1rem;
     margin-block: 2rem;
     cursor: pointer;
+    text-align: center;
+    text-decoration: none;
 }
 
-.beer-info button:active {
+.beer-info .link:active {
     position: relative;
     top: 1.5px;
     background-color: #deb348;

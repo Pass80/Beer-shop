@@ -15,9 +15,12 @@ function App() {
     return (
         <div className="App">
             <Routes>
-                <Route path="/" element={<HomePage />} />
+                <Route path="/" element={<HomePage data={data} />} />
                 <Route path="/list" element={<BeersListPage data={data} />} />
-                <Route path="/details/:id" element={<BeerDetailsPage />} />
+                <Route
+                    path="/details/:id"
+                    element={<BeerDetailsPage data={data} />}
+                />
             </Routes>
         </div>
     );
