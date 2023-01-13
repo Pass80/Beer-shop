@@ -27,8 +27,6 @@ const BeersListPage = ({ data }) => {
         });
     }, [currentPage]);
 
-    const created = data[0];
-
     return (
         <section>
             {currentCards.map((drink, index) => {
