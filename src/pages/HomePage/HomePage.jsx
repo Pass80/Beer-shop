@@ -2,6 +2,7 @@ import './HomePage.css';
 import img1 from '../../assets/images/beer.png';
 import img2 from '../../assets/images/set-of-beers.png';
 import { Link } from 'react-router-dom';
+import Test from "../../components/Test/Test";
 
 const HomePage = ({ data }) => {
     const randomIndex = Math.floor(Math.random() * data.length);
@@ -36,6 +37,7 @@ const HomePage = ({ data }) => {
                     blanditiis fugiat tempora labore!
                 </p>
             </div>
+            <Test/>
         </section>
     );
 };
